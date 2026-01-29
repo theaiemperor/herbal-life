@@ -23,7 +23,7 @@ export default function WhatsappButton({ msg, className, btnClassName, children 
                     width={20}
                     height={20}
                     alt="Whatsapp"
-                    src={'/whatsapp.svg'} />
+                    src={'whatsapp.svg'} />
                 {children || "Chat Now"}
             </Button>
         </Link >
