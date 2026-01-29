@@ -13,9 +13,7 @@ const nextConfig: NextConfig = {
   output: 'export',
   devIndicators: {
     position: 'bottom-right'
-  },
-  basePath: process.env.PAGES_BASE_PATH,
-
+  }
 };
 
 export default nextConfig;
